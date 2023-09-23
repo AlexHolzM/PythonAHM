@@ -194,4 +194,4 @@ https://github.com/AlexHolzM
 
     Crea una calculadora de impuestos que permita al usuario ingresar sus ingresos y calcule el impuesto sobre la renta en función de las tasas impositivas actuales.
 
-    Estos ejercicios proporcionan una variedad de desafíos y oportunidades para aplicar conceptos de programación en Python, como variables, estructuras de control, funciones, diccionarios, y más. Tu estudiante puede elegir uno o más de estos ejercicios para trabajar en función de sus intereses y nivel de habilidad. A medida que resuelva estos problemas, ganará experiencia práctica y mejorará sus habilidades de programación.
+## Estos ejercicios proporcionan una variedad de desafíos y oportunidades para aplicar conceptos de programación en Python, como variables, estructuras de control, funciones, diccionarios, y más. Tu estudiante puede elegir uno o más de estos ejercicios para trabajar en función de sus intereses y nivel de habilidad. A medida que resuelva estos problemas, ganará experiencia práctica y mejorará sus habilidades de programación.
