@@ -22,14 +22,13 @@
 '''
 
 import os
-"""  # Todo Quitar Comillas para realizar ejemplo
-# ? With se usa para cerrar arcicho automaticamente despues de escribir
-# ? Abre y/o crea archivo para escritura
+"""  <=== #Todo Quitar Comillas para realizar ejemplo
+#? With se usa para cerrar arcicho automaticamente despues de escribir
+#? Open Abre y/o crea archivo para escritura
 with open("archivo.txt", "w") as archivo:
-    # ? ingresa informacion
+    #? ingresa informacion
     archivo.write("Hola, mundo")
-
-"""  # Todo Quitar Comillas para realizar ejemplo
+"""
 
 # """
 '==========================================================='

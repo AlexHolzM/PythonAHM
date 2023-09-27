@@ -1,4 +1,12 @@
 '''
+#?                  ¿Qué son las Excepciones?
+
+#   Las excepciones son eventos inesperados o errores que pueden ocurrir durante la ejecución de un programa. 
+# Estos eventos pueden detener la ejecución normal del programa si no se manejan adecuadamente. 
+# Las excepciones son una parte fundamental de la programación y son utilizadas 
+# para lidiar con situaciones excepcionales, como divisiones por cero, 
+# acceso a archivos que no existen o conversiones de tipos incorrectas.
+
 #*                  Gestión de Excepciones:
 
     La gestión de excepciones en Python se realiza mediante bloques try y except. 
@@ -37,6 +45,43 @@ except ZeroDivisionError:
 
 # """
 '==========================================================='
+# """
+
+# *  Tipos de Excepciones Comunes:
+
+'''Existen muchos tipos diferentes de excepciones en Python, 
+cada una diseñada para manejar situaciones específicas de error. 
+Algunos ejemplos comunes de excepciones incluyen:
+
+
+#    ZeroDivisionError: Se produce cuando intentas dividir por cero.
+#    TypeError: Se produce cuando realizas una operación no válida para un tipo de dato específico.
+#    FileNotFoundError: Se produce cuando intentas acceder a un archivo que no existe.
+'''
+
+# * Ejemplo Practico
+
+try:
+    # Solicitar al usuario ingresar dos números
+    numero1 = float(input("Ingresa el primer número: "))
+    numero2 = float(input("Ingresa el segundo número: "))
+
+    # Realizar la división
+    resultado = numero1 / numero2
+
+    # Mostrar el resultado
+    print(f"El resultado de la división es: {resultado}")
+
+except ValueError:
+    print("Error: Debes ingresar números válidos.")
+except ZeroDivisionError:
+    print("Error: No puedes dividir entre cero.")
+except Exception as e:
+    print(f"Ocurrió un error inesperado: {e}")
+
+
+# """
+'======================Explicaciones Detalladas========================'
 # """
 
 '''
